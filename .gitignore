@@ -1,0 +1,16 @@
+# Ignora arquivos do macOS
+.DS_Store
+
+# Compilados Java
+*.class
+
+# Pastas de build comuns
+/bin/
+/build/
+/out/
+
+# Configurações de IDEs
+.idea/
+*.iml
+.vscode/
+
