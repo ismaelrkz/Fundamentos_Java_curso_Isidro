@@ -42,6 +42,7 @@ public class Continhas {
         System.out.printf("O valor de C é: %f\n", d); 
         // printf permite formatar a saída; %f é usado para ponto flutuante com 6 casas decimais por padrão.
         // Saída esperada: O valor de C é: 0.500000
+        // Usamos o simbolo "\n" no final para pularmos uma linha.
 
         // Exemplo com double, para comparar precisão
         e = 1.0 / 3.0; // operação feita com double
