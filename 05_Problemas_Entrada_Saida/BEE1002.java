@@ -16,6 +16,8 @@ public class BEE1002{
 
         System.out.printf("A=%.4f\n", area);
 
+        teclado.close();
+
     }
 
 }

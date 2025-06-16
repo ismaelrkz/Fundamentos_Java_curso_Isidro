@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
-public class BEE1001 {
+public class BEE1003{
 
     public static void main(String args[]){
 
+        int A, B, SOMA;
+
         Scanner teclado = new Scanner(System.in);
-        
-        int A, B, X;
 
         A = teclado.nextInt();
         B = teclado.nextInt();
 
-        X = A + B;
+        SOMA = A + B;
 
-        System.out.println("X = " + X + "\r");
+        System.out.println("SOMA = " + SOMA);
 
         teclado.close();
 
