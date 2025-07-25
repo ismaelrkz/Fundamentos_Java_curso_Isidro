@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BEE1015{
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         double x1, y1, x2, y2, termo1, termo2, distancia;
         
