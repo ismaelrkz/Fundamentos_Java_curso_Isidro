@@ -16,7 +16,7 @@ public class BEE1015{
         termo1 = (x2 - x1) * (x2 - x1);
         termo2 = (y2 - y1) * (y2 - y1);
 
-        distancia = Math.sqrt(termo1 + termo2);c // sqrt - raiz quadrada
+        distancia = Math.sqrt(termo1 + termo2); // sqrt - raiz quadrada
 
         System.out.printf("%.4f\n", distancia);
 
