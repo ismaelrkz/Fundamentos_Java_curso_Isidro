@@ -17,7 +17,7 @@ public class BEE1064{
 
             if(valor > 0){
                 media = media + valor;
-                numPositivo++;
+                numPositivo++; //
             }
 
         }
