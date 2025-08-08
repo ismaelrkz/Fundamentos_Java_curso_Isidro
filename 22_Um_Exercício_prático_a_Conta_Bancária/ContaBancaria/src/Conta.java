@@ -20,7 +20,7 @@ public class Conta {
         this.digitoVerificador = digitoVerificador;
         this.nomeTitular = nomeTitular;
         this.cpfTitular = cpfTitular;
-        this.saldo = 0.0; // iniciamos zerado porque ...
+        this.saldo = 0.0; // iniciamos zerado porque teremos um metodo que atualiza o atributo.
     }
 
     // GETTERS & SETTERS (-set.saldo)
