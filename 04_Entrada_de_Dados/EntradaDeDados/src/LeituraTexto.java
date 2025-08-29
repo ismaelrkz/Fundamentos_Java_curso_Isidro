@@ -25,7 +25,7 @@ public class LeituraTexto {
 
         System.out.println("Primeira parte lida: " + primeiraParteNome); // Saída: "Joao"
 
-        // A próxima leitura é de novo um método 'token-based'
+        // A próxima leitura é de novo um métudo "token-based"
         segundaParteNome = teclado.next(); // Lê "Silva" do buffer
 
         System.out.println("Segunda parte lida: " + segundaParteNome); // Saída: "Silva"

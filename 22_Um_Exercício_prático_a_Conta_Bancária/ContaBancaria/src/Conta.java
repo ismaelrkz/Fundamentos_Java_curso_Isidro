@@ -13,14 +13,13 @@ public class Conta {
     public Conta(int numeroConta,
                  int digitoVerificador,
                  String nomeTitular,
-                 String cpfTitular,
-                 double saldo) {
+                 String cpfTitular
+                 ) {
 
         this.numeroConta = numeroConta;
         this.digitoVerificador = digitoVerificador;
         this.nomeTitular = nomeTitular;
         this.cpfTitular = cpfTitular;
-        this.saldo = 0.0; // iniciamos zerado porque teremos um metodo que atualiza o atributo.
     }
 
     // GETTERS & SETTERS (-set.saldo)
@@ -67,7 +66,7 @@ public class Conta {
         return "Conta: " +
                 numeroConta + " / " +
                 digitoVerificador + " - " +
-                nomeTitular + "(" +
+                nomeTitular + " (" +
                 cpfTitular + ") " + "R$ " +
                 String.format("%.2f", this.saldo);
     }
